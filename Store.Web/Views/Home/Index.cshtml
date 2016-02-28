@@ -17,6 +17,8 @@
                 <div class="panel-heading">
                     @*@Html.DisplayFor(modelItem => item.Name)*@
                     @Html.ActionLink("View all " + item.Name, "Index", new { category = item.Name }, new { @class = "pull-right" })
+
+                    
                     @using (Html.BeginForm("Filter", "Home", new { category = item.Name }, FormMethod.Post, new { @class = "navbar-form" }))
                     {
                         @Html.TextBox("gadgetName", null, new { @class = "form-control", placeholder = "Search in " + item.Name })
@@ -27,6 +29,7 @@
                 @foreach (var gadget in item.Gadgets)
                 {
                     @Html.Partial("Gadget", gadget)
+                
                 }
                 <div class="panel-footer">
                     @using (Html.BeginForm("Create", "Home", FormMethod.Post,

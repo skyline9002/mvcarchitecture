@@ -10,7 +10,6 @@ namespace Store.Web.ViewModels
     {
         public int CategoryID { get; set; }
         public string Name { get; set; }
-
         public List<GadgetViewModel> Gadgets { get; set; }
     }
 }

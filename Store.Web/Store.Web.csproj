@@ -115,6 +115,58 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bstemplate\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bstemplate\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bstemplate\bootstrap\css\bootstrap.css" />
+    <Content Include="bstemplate\bootstrap\css\bootstrap.min.css" />
+    <Content Include="bstemplate\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bstemplate\bootstrap\js\bootstrap.js" />
+    <Content Include="bstemplate\bootstrap\js\bootstrap.min.js" />
+    <Content Include="bstemplate\bootstrap\js\npm.js" />
+    <Content Include="bstemplate\css\animate.css" />
+    <Content Include="bstemplate\css\font-awesome.css" />
+    <Content Include="bstemplate\css\font-awesome.min.css" />
+    <Content Include="bstemplate\css\magnific-popup.css" />
+    <Content Include="bstemplate\css\owl.carousel.css" />
+    <Content Include="bstemplate\css\owl.theme.css" />
+    <Content Include="bstemplate\css\simpletextrotator.css" />
+    <Content Include="bstemplate\css\style.css" />
+    <Content Include="bstemplate\fonts\fontawesome-webfont.svg" />
+    <Content Include="bstemplate\images\488.GIF" />
+    <Content Include="bstemplate\images\bg4.jpg" />
+    <Content Include="bstemplate\images\grabbing.png" />
+    <Content Include="bstemplate\images\logo\client120-1.png" />
+    <Content Include="bstemplate\images\logo\client120-2.png" />
+    <Content Include="bstemplate\images\logo\client120-3.png" />
+    <Content Include="bstemplate\images\logo\client160-1.png" />
+    <Content Include="bstemplate\images\logo\client160-3.png" />
+    <Content Include="bstemplate\images\logo\client240-1.png" />
+    <Content Include="bstemplate\images\logo\client240-2.png" />
+    <Content Include="bstemplate\images\logo\client240-3.png" />
+    <Content Include="bstemplate\images\p1.jpg" />
+    <Content Include="bstemplate\images\p2.jpg" />
+    <Content Include="bstemplate\images\p3.jpg" />
+    <Content Include="bstemplate\images\p5.jpg" />
+    <Content Include="bstemplate\images\p6.jpg" />
+    <Content Include="bstemplate\images\p8.jpg" />
+    <Content Include="bstemplate\images\photo.jpg" />
+    <Content Include="bstemplate\js\custom.js" />
+    <Content Include="bstemplate\js\jquery-1.11.0.js" />
+    <Content Include="bstemplate\js\jquery-1.11.0.min.js" />
+    <Content Include="bstemplate\js\jquery.backstretch.js" />
+    <Content Include="bstemplate\js\jquery.backstretch.min.js" />
+    <Content Include="bstemplate\js\jquery.countTo.js" />
+    <Content Include="bstemplate\js\jquery.fitvids.js" />
+    <Content Include="bstemplate\js\jquery.magnific-popup.js" />
+    <Content Include="bstemplate\js\jquery.magnific-popup.min.js" />
+    <Content Include="bstemplate\js\jquery.simple-text-rotator.js" />
+    <Content Include="bstemplate\js\jquery.simple-text-rotator.min.js" />
+    <Content Include="bstemplate\js\jquery.waypoints.js" />
+    <Content Include="bstemplate\js\owl.carousel.js" />
+    <Content Include="bstemplate\js\owl.carousel.min.js" />
+    <Content Include="bstemplate\js\smoothscroll.js" />
+    <Content Include="bstemplate\js\wow.js" />
+    <Content Include="bstemplate\js\wow.min.js" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -142,6 +194,7 @@
     <Compile Include="App_Start\Bootstrapper.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CVController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -165,6 +218,17 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Gadget.cshtml" />
     <Content Include="Views\Home\Filter.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\CV\Index.cshtml" />
+    <Content Include="bstemplate\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="bstemplate\bootstrap\css\bootstrap.css.map" />
+    <Content Include="bstemplate\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bstemplate\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bstemplate\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bstemplate\fonts\fontawesome-webfont.eot" />
+    <Content Include="bstemplate\fonts\fontawesome-webfont.ttf" />
+    <Content Include="bstemplate\fonts\fontawesome-webfont.woff" />
+    <Content Include="bstemplate\fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
