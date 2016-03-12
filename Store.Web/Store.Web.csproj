@@ -245,6 +245,16 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="Views\CV\_IntroductionSection.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
+    <Content Include="Views\CV\_ContactSection.cshtml" />
+    <Content Include="Views\CV\_ProfileSection.cshtml" />
+    <Content Include="Views\CV\_StatsSection.cshtml" />
+    <Content Include="Views\CV\_ServiceSection.cshtml" />
+    <Content Include="Views\CV\_CalloutSection.cshtml" />
+    <Content Include="Views\CV\_ResumeSection.cshtml" />
+    <Content Include="Views\CV\_ClientSection.cshtml" />
+    <Content Include="Views\CV\_PortfolioSection.cshtml" />
+    <Content Include="Views\CV\_FooterContactSection.cshtml" />
+    <Content Include="Views\CV\_FooterSection.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
