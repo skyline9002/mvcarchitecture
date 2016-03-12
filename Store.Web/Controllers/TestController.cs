@@ -6,19 +6,12 @@ using System.Web.Mvc;
 
 namespace Store.Web.Controllers
 {
-    public class CVController : Controller
+    public class TestController : Controller
     {
-        // GET: CV
+        // GET: Test
         public ActionResult Index()
         {
             return View();
         }
-
-        [ChildActionOnly]
-        public ActionResult IntroductionSection()
-        {
-            return PartialView("_IntroductionSection");
-        }
-
     }
 }

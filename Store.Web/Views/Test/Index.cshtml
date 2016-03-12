@@ -1,0 +1,488 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+ 
+
+    <style type="text/css">
+        #SuperWrapper {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+            #SuperWrapper p {
+                margin: 0px;
+                padding: 0px 0px 15px 0px;
+                line-height: 20px;
+            }
+
+            #SuperWrapper h1 {
+                padding: 5px 0px 15px 0px;
+                margin: 0px;
+                font-size: 32px;
+                font-weight: normal;
+                letter-spacing: 0px;
+                color: #333300;
+                font-family: impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+                text-transform: uppercase;
+            }
+
+            #SuperWrapper a {
+                font-weight: bold;
+                text-decoration: underline;
+                color: #000000;
+            }
+
+                #SuperWrapper a:hover {
+                    text-decoration: none;
+                }
+
+        #SuperHeader {
+            width: 800px;
+            height: 240px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/Header.jpg');
+        }
+
+        #SuperHeaderLogo {
+            padding: 110px 5px 0px 0px;
+            font-family: impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            font-size: 80px;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin: 0px;
+            text-align: center;
+            line-height: 35px;
+            color: #FFFFFF;
+            text-shadow: 1px 1px 1px #000;
+        }
+
+        #SuperHeaderMenu {
+            margin: 0px;
+        }
+
+            #SuperHeaderMenu ul.navi {
+                padding: 0px;
+                margin: 0px 0px 0px 0px;
+                width: 800px;
+                text-align: center;
+                position: relative;
+            }
+
+                #SuperHeaderMenu ul.navi li {
+                    height: 22px;
+                    padding: 0 10px 0 10px;
+                    margin: 0px;
+                    display: inline;
+                }
+
+                    #SuperHeaderMenu ul.navi li a {
+                        padding: 0px 8px 0px 8px;
+                        font: 18px arial, Helvetica, sans-serif;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                        text-indent: 0px;
+                        font-weight: bold;
+                        margin: 0;
+                        width: inherit;
+                        letter-spacing: -1px;
+                        line-height: 30px;
+                    }
+
+                        #SuperHeaderMenu ul.navi li a:hover {
+                            color: #FFFF99;
+                        }
+
+        #SuperContentsWrapper {
+            width: 800px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/Contents.jpg');
+        }
+
+        #SuperContents {
+            width: 800px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ContentsTop.jpg');
+            background-repeat: no-repeat;
+        }
+
+        #SuperContentsSub {
+            padding: 40px 40px 0px 40px;
+        }
+
+        #SuperFooter {
+            width: 800px;
+            height: 44px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/Footer.jpg');
+        }
+
+        #SuperFooterLink {
+            width: 800px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/BG.jpg');
+            height: 100px;
+        }
+
+        #SuperBoxContents {
+            padding: 0px 80px 0px 80px;
+            margin: 0px;
+        }
+
+            #SuperBoxContents p {
+                padding: 0px 0px 10px 0px;
+                margin: 0px;
+                line-height: 20px;
+            }
+
+            #SuperBoxContents ul {
+                padding: 0px 0px 0px 28px;
+                margin: 0px;
+                list-style-type: disc;
+            }
+
+            #SuperBoxContents li {
+                line-height: 20px;
+            }
+
+        #SuperPayment {
+            width: 800px;
+        }
+
+        #SuperPaymentTop {
+            width: 800px;
+            height: 83px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/PaymentPolicyTop.jpg');
+        }
+
+        #SuperPaymentContents {
+            width: 800px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/PaymentPolicyContents.jpg');
+        }
+
+        #SuperPaymentBottom {
+            width: 800px;
+            height: 53px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/PaymentPolicyBottom.jpg');
+        }
+
+        #SuperShipping {
+            width: 800px;
+        }
+
+        #SuperShippingTop {
+            width: 800px;
+            height: 83px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ShippingPolicyTop.jpg');
+        }
+
+        #SuperShippingContents {
+            width: 800px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ShippingPolicyContents.jpg');
+        }
+
+        #SuperShippingBottom {
+            width: 800px;
+            height: 53px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ShippingPolicyBottom.jpg');
+        }
+
+        #SuperContacts {
+            width: 800px;
+        }
+
+        #SuperContactsTop {
+            width: 800px;
+            height: 83px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ContactsTop.jpg');
+        }
+
+        #SuperContactsContents {
+            width: 800px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ContactsContents.jpg');
+        }
+
+        #SuperContactsBottom {
+            width: 800px;
+            height: 53px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ContactsBottom.jpg');
+        }
+
+        #SuperReturns {
+            width: 800px;
+        }
+
+        #SuperReturnsTop {
+            width: 800px;
+            height: 83px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ReturnsTop.jpg');
+        }
+
+        #SuperReturnsContents {
+            width: 800px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ReturnsContents.jpg');
+        }
+
+        #SuperReturnsBottom {
+            width: 800px;
+            height: 53px;
+            background-image: url('http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/ReturnsBottom.jpg');
+        }
+        /* HTML5 ELEMENTS */
+        /* sub images > thumbnail list */
+        ul#SuperThumbs, ul#SuperThumbs li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+            ul#SuperThumbs li {
+                float: left;
+                background: #ffffff;
+                border: 1px solid #cccccc;
+                margin: 0px 0px 10px 10px;
+                padding: 8px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+            }
+
+            ul#SuperThumbs a {
+                float: left;
+                display: block;
+                width: 150px;
+                height: 150px;
+                line-height: 100px;
+                overflow: hidden;
+                position: relative;
+                z-index: 1;
+            }
+
+                ul#SuperThumbs a img {
+                    float: left;
+                    width: 100%;
+                    height: 100%;
+                    border: 0px;
+                }
+                /* sub images > mouse over */
+                ul#SuperThumbs a:hover {
+                    overflow: visible;
+                    z-index: 1000;
+                    border: none;
+                }
+
+                    ul#SuperThumbs a:hover img {
+                        background: #ffffff;
+                        border: 1px solid #cccccc;
+                        padding: 10px;
+                        -moz-border-radius: 10px;
+                        border-radius: 10px;
+                        position: absolute;
+                        top: -20px;
+                        left: -50px;
+                        width: auto;
+                        height: auto;
+                    }
+            /* sub images > clearing floats */
+            ul#SuperThumbs:after, li#SuperThumbs:after {
+                content: ".";
+                display: block;
+                height: 0;
+                clear: both;
+                visibility: hidden;
+            }
+
+        ul#SuperThumbs, li#SuperThumbs {
+            display: block;
+        }
+
+        ul#SuperThumbs, li#SuperThumbs {
+            min-height: 1%;
+        }
+
+        * html ul#SuperThumbs, * html li#SuperThumbs {
+            height: 1%;
+        }
+    </style>
+
+    <div id="SuperWrapper">
+
+        <div id="SuperHeader">
+            <div id="SuperHeaderLogo">retro store</div>
+            <div id="SuperHeaderMenu">
+
+            </div>
+        </div>
+        <div id="SuperContentsWrapper">
+            <div id="SuperContents">
+                <div id="SuperContentsSub">
+                    <h1>super charge your ebay sales!</h1>
+                    <p>
+                        <strong>Nunc pellentesque blandit lectus,</strong> at semper
+                        massa sodales vel. Mauris varius felis ac metus molestie id viverra
+                        sem venenatis. Duis lobortis, mi vel cursus aliquam, nibh nisi vestibulum
+                        lectus, vitae varius libero est eu eros. Curabitur gravida, odio
+                        id pharetra sollicitudin, erat nisl vulputate nibh, a ullamcorper
+                        orci ante vel ligula. <a href="#">Hyperlink test</a>.
+                    </p>
+                    <h1>Product Images Gallery</h1>
+                    <p>
+                        Here, you can have unlimited product images, please refer to
+                        the instruction manual available in the member area for instructions
+                        on how to add or remove product images.
+                    </p>
+                    <ul id="SuperThumbs">
+                        <!-- Place your first set of thumbnails here -->
+                        <li><a href="#"><img src="http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/product-1.jpg" /></a></li>
+                        <li><a href="#"><img src="http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/product-2.jpg" /></a></li>
+                        <li><a href="#"><img src="http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/product-3.jpg" /></a></li>
+                        <li><a href="#"><img src="http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/product-4.jpg" /></a></li>
+                        <li><a href="#"><img src="http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/product-5.jpg" /></a></li>
+                        <li><a href="#"><img src="http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/product-6.jpg" /></a></li>
+                        <li><a href="#"><img src="http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/product-7.jpg" /></a></li>
+                        <li><a href="#"><img src="http://www.superauctiontemplate.com/freebaytemplate/productimages/Retro/HTML/images/product-8.jpg" /></a></li>
+                        <!-- Place your first set of thumbnails here -->
+                    </ul>
+                    <p></p>
+                    <p>You may even add more contents here, perhaps some notes about actual product might be different than what is shown above.</p>
+                </div>
+                <div id="SuperPayment">
+                    <div id="SuperPaymentTop"></div>
+                    <div id="SuperPaymentContents">
+                        <div id="SuperBoxContents">
+                            <p>
+                                Nunc pellentesque blandit lectus, at semper massa sodales
+                                vel. <a href="#">Hyperlink test</a>
+                            </p>
+                            <p>
+                                Mauris varius felis ac metus molestie id viverra sem
+                                venenatis. Duis lobortis, mi vel cursus aliquam, nibh nisi
+                                vestibulum lectus, vitae varius libero est eu eros.
+                            </p>
+                            <ul>
+                                <li>Vitae varius libero est eu eros. </li>
+                                <li>
+                                    Curabitur gravida, odio id pharetra sollicitudin,
+                                    erat nisl vulputate nibh.
+                                </li>
+                                <li>
+                                    A ullamcorper orci ante vel ligula. Etiam facilisis,
+                                    justo vitae iaculis condimentum.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="SuperPaymentBottom"></div>
+                </div>
+
+                <div id="SuperShipping">
+                    <div id="SuperShippingTop"></div>
+                    <div id="SuperShippingContents">
+                        <div id="SuperBoxContents">
+                            <p>
+                                Nunc pellentesque blandit lectus, at semper massa sodales
+                                vel. <a href="#">Hyperlink test</a>
+                            </p>
+                            <ul>
+                                <li>Vitae varius libero est eu eros. </li>
+                                <li>
+                                    Curabitur gravida, odio id pharetra sollicitudin,
+                                    erat nisl vulputate nibh.
+                                </li>
+                                <li>
+                                    A ullamcorper orci ante vel ligula. Etiam facilisis,
+                                    justo vitae iaculis condimentum.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="SuperShippingBottom"></div>
+                </div>
+
+                <div id="SuperContacts">
+                    <div id="SuperContactsTop"></div>
+                    <div id="SuperContactsContents">
+                        <div id="SuperBoxContents">
+                            <p>
+                                Nunc pellentesque blandit lectus, at semper massa sodales
+                                vel. <a href="#">Hyperlink test</a>
+                            </p>
+                            <ul>
+                                <li>Vitae varius libero est eu eros. </li>
+                                <li>
+                                    Curabitur gravida, odio id pharetra sollicitudin,
+                                    erat nisl vulputate nibh.
+                                </li>
+                                <li>
+                                    A ullamcorper orci ante vel ligula. Etiam facilisis,
+                                    justo vitae iaculis condimentum.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="SuperContactsBottom"></div>
+                </div>
+
+                <div id="SuperReturns">
+                    <div id="SuperReturnsTop"></div>
+                    <div id="SuperReturnsContents">
+                        <div id="SuperBoxContents">
+                            <p>
+                                Nunc pellentesque blandit lectus, at semper massa sodales
+                                vel. <a href="#">Hyperlink test</a>
+                            </p>
+                            <ul>
+                                <li>Vitae varius libero est eu eros. </li>
+                                <li>
+                                    Curabitur gravida, odio id pharetra sollicitudin,
+                                    erat nisl vulputate nibh.
+                                </li>
+                                <li>
+                                    A ullamcorper orci ante vel ligula. Etiam facilisis,
+                                    justo vitae iaculis condimentum.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="SuperReturnsBottom"></div>
+                </div>
+
+            </div>
+        </div>
+        <div id="SuperFooter"></div>
+        <div id="SuperFooterLink">
+            <p align="center">
+            </p>
+            <p align="center">
+                eBay Template by
+                <a href="http://www.superauctiontemplate.com" target="_blank">
+                    SuperAuctionTemplate.com
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+
+    <style type="text/css">
+        #MyTemplate {
+            width: 800px;
+        }
+    </style>
+
+    <div> 
+        <div id="MyTemplate">
+            <div style="background-color: #fa0505;color:#FFFFFF;font-size:24px;font-weight:700">
+                Shipment
+            </div>
+        </div>
+    </div>
+</body>
+</html>
