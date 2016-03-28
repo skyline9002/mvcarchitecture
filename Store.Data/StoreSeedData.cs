@@ -12,9 +12,9 @@ namespace Store.Data
     {
         protected override void Seed(StoreEntities context)
         {
-            GetCategories().ForEach(c => context.Categories.Add(c));
-            GetGadgets().ForEach(g => context.Gadgets.Add(g));
-            context.Commit();
+            //GetCategories().ForEach(c => context.Categories.Add(c));
+            //GetGadgets().ForEach(g => context.Gadgets.Add(g));
+            //context.Commit();
         }
 
         private static List<Category> GetCategories()

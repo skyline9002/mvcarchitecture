@@ -15,9 +15,11 @@ namespace Store.Data.Repositories
 
         public Category GetCategoryByName(string categoryName)
         {
-            var category = this.DbContext.Categories.Where(c => c.Name == categoryName).FirstOrDefault();
+            //var category = this.DbContext.Categories.Where(c => c.Name == categoryName).FirstOrDefault();
 
-            return category;
+            return null;
+
+            //return category;
         }
 
         public override void Update(Category entity)

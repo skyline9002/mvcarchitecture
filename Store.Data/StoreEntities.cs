@@ -13,8 +13,8 @@ namespace Store.Data
     {
         public StoreEntities() : base("StoreEntities") { }
 
-        public DbSet<Gadget> Gadgets { get; set; }
-        public DbSet<Category> Categories { get; set; }
+        //public DbSet<Gadget> Gadgets { get; set; }
+        //public DbSet<Category> Categories { get; set; }
 
         public virtual void Commit()
         {
@@ -23,8 +23,8 @@ namespace Store.Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new GadgetConfiguration());
-            modelBuilder.Configurations.Add(new CategoryConfiguration());
+            //modelBuilder.Configurations.Add(new GadgetConfiguration());
+            //modelBuilder.Configurations.Add(new CategoryConfiguration());
         }
     }
 }

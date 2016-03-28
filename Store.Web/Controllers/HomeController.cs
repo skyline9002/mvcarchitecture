@@ -24,6 +24,9 @@ namespace Store.Web.Controllers
         // GET: Home
         public ActionResult Index(string category = null)
         {
+
+            return RedirectToAction("Index", "CV");
+
             IEnumerable<CategoryViewModel> viewModelGadgets;
             IEnumerable<Category> categories;
 
