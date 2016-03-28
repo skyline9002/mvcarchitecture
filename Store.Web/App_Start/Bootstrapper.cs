@@ -33,6 +33,7 @@ namespace Store.Web.App_Start
             builder.RegisterAssemblyTypes(typeof(GadgetRepository).Assembly)
                 .Where(t => t.Name.EndsWith("Repository"))
                 .AsImplementedInterfaces().InstancePerRequest();
+            
             // Services
             builder.RegisterAssemblyTypes(typeof(GadgetService).Assembly)
                .Where(t => t.Name.EndsWith("Service"))

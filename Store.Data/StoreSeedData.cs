@@ -14,7 +14,6 @@ namespace Store.Data
         {
             GetCategories().ForEach(c => context.Categories.Add(c));
             GetGadgets().ForEach(g => context.Gadgets.Add(g));
-
             context.Commit();
         }
 
